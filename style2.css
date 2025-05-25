@@ -1,0 +1,38 @@
+h1,h2,h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 0;
+    text-align: center;
+}
+h1,h2,h3{
+    color: navy;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.left-list {
+    width: 45%;
+    color:maroon;
+
+}
+.right-list{
+    width: 45%;
+    color:maroon;
+}
+
+p{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 0;
+    text-align: center;   
+}
